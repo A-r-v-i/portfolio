@@ -1,0 +1,178 @@
+@font-face {
+  font-family: betterYouSmile;
+  src: url("./static/fonts/better\ you\ smile.otf");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, orange, red, violet);
+  color: black;
+  font-family: betterYouSmile;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NavBar */
+.header {
+  position: fixed;
+  height: 3rem;
+  width: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, 0.404);
+  z-index: 10;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.header a {
+  color: black;
+}
+.nav-link {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.nav-link a {
+  color: black;
+  margin: 0 20px;
+}
+
+/* Content */
+
+.content-container {
+  margin: 4rem 0;
+  padding: 0;
+}
+
+.intro {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+}
+
+/* About */
+
+.about {
+  max-width: 1000px;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  height: max-content;
+}
+
+.about section {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+}
+
+/* Projects */
+
+.projects {
+  position: relative;
+  margin: 2rem 1rem;
+  padding: 0.5rem 0.5rem;
+  height: max-content;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container {
+  float: right;
+  margin: 10px 5px;
+  width: 100%;
+}
+
+#project:nth-child(even) {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#project:nth-child(odd) {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: right;
+}
+
+/* .project-container:nth-child(2) {
+  float: right;
+  width: 70%;
+  border-color: indianred;
+} */
+
+#project:hover {
+  cursor: pointer;
+  box-shadow: rgba(255, 255, 255, 0.404);
+}
+
+
+/* Contact */
+
+.contact {
+  max-width: 1000px;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  height: max-content;
+}
+
+.contact address a {
+  font-size: 2em;
+  color: black;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.contact address a:hover{
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+
+/* Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  background: rgba(0, 0, 0, 0.438);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* media queries */
+
+@media(max-width: 768px) {
+  .header h2 {
+    font-size: 28px;
+  }
+  
+  .nav-link {
+    display: none;
+  }
+
+  .content-container .intro {
+    font-size: 2.5em;
+  }
+
+}
