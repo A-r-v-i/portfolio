@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon/favicon-16x16.png">
   <link rel="manifest" href="./static/favicon/site.webmanifest">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
   <title>Lemme show you, who I'm</title>
@@ -15,13 +16,22 @@
 
 <body>
   <div class="main-container">
-    <div class="header">
+    <!-- <div class="header">
       <h2><a href="/">Hi, I'm Aravind Sankar</a></h2>
       <div class="nav-link">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
+    </div> -->
+    <div class="navbar" id="navbar">
+      <a href="/" class="active">I'm Aravind Sankar</a> 
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
     <div class="content-container">
       <div class="intro">
@@ -99,7 +109,7 @@
 
       <!-- CONTACT -->
       <div class="contact" id="contact">
-        <h1>You can reach me</h1>
+        <h1>Lets connect through</h1>
         <address>
           <a href="https://github.com/A-r-v-i" target="_blank" class="fa fa-github"></a>
           <a href="https://www.linkedin.com/in/aravind-babu-s/" target="_blank" class="fa fa-linkedin"></a>
@@ -114,6 +124,19 @@
       <code>Ok, lemme tell you, I created this portfolio to revise my basic skills &#128519;</code>
     </div>
   </div>
+
+
+
+
+
+
+  <!-- SCRIPT -->
+  <script src="/main.js"></script>
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
 
 </html>
