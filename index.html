@@ -11,6 +11,8 @@
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="styles.css">
   <title>Lemme show you, who I'm</title>
 </head>
@@ -19,9 +21,9 @@
   <div class="main-container">
     <div class="navbar" id="navbar">
       <a href="#" class="active">I'm Aravind Sankar</a>
-      <a id="nav-link" href="#about">About</a>
-      <a id="nav-link" href="#projects">Projects</a>
-      <a id="nav-link" href="#contact">Contact</a>
+      <a id="nav-link" href="#about" onclick="toggleFunction()">About</a>
+      <a id="nav-link" href="#projects" onclick="toggleFunction()">Projects</a>
+      <a id="nav-link" href="#contact" onclick="toggleFunction()">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="toggleFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -29,6 +31,17 @@
     <div class="content-container">
       <div class="intro">
         <h1>I'm Aravind</h1>
+        <span class="intro-myself">
+          I'm a web developer.<br />
+          <i class="devicon-react-original colored"></i>
+          <i class="devicon-html5-plain"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-express-original"></i>
+          <i class="devicon-nodejs-plain colored"></i>
+          <i class="devicon-mongodb-plain-wordmark colored"></i><br />
+          Currently working on MERN stack on web, <br />React Native for mobile.<br />
+        </span>
       </div>
 
 
@@ -51,42 +64,68 @@
       <!-- PROJECT -->
       <div class="projects" id="projects">
         <h1 calss="title">Projects</h1>
-        
+
         <div class="project-container">
           <div id="project">Co-Vid
-            <span><a href="https://github.com/A-r-v-i" target="_blank" class="fa fa-github"></a></span>
+            <span>-<a href="https://github.com/A-r-v-i" target="_blank"> <i class="devicon-github-plain"></i></a></span>
             <section>
               <p class="project-content">
-                An open source project in production.<br/>
+                An open source project in production.<br />
                 Dashboard which displaying the realtime data of COVID cases from API endpoints.
                 <br />
                 <span>
-                  <i class="fa fa-html5"></i>
-                  <i class="fa fa-css3"></i>
-                  <i class="fa fa-js-square"></i>
+                  <i class="devicon-react-original colored"></i>
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
                 </span>
               </p>
             </section>
           </div>
           <div id="project">Easy Blogger
-            <span><a href="https://github.com/A-r-v-i" target="_blank" class="fa fa-github"></a></span>
+            <span>-<a href="https://github.com/A-r-v-i" target="_blank"> <i class="devicon-github-plain"></i></a></span>
             <section>
-              A replica of blogger. User can share their ideas.<br/>
-              Has firebase authentication and firestore DB. Built using React JS.
+              <p>
+                A replica of blogger. User can share their ideas.<br />
+                Has firebase authentication and firestore DB. Built using React JS.
+                <br />
+                <span>
+                  <i class="devicon-react-original colored"></i>
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-express-original"></i>
+                </span>
+              </p>
             </section>
           </div>
           <div id="project">Aromati
-            <span><a href="https://github.com/A-r-v-i" target="_blank" class="fa fa-github"></a></span>
+            <span>-<a href="https://github.com/A-r-v-i" target="_blank"> <i class="devicon-github-plain"></i></a></span>
             <section>
-              An E-commerce application for organic cosmetics, is under development.<br/>
-              Stacks using are Node JS, Express JS.
+              <p>
+                An E-commerce application for organic cosmetics, is under development.<br />
+                Stacks using are Node JS, Express JS.
+                <br />
+                <span>
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-express-original"></i>
+                  <i class="devicon-mongodb-plain-wordmark colored"></i>
+                </span>
+              </p>
             </section>
           </div>
           <div id="project">Weather-it
-            <span><a href="https://github.com/A-r-v-i" target="_blank" class="fa fa-github"></a></span>
+            <span>-<a href="https://github.com/A-r-v-i" target="_blank"> <i class="devicon-github-plain"></i></a></span>
             <section>
-              A react based application showing real time weather data <br/>
-              fetched from API for cities all around the world.
+              <p>
+                A react based application showing real time weather data <br />
+                fetched from API for cities all around the world.
+                <br />
+                <span>
+                  <i class="devicon-react-original colored"></i>
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
+                </span>
+              </p>
             </section>
           </div>
         </div>

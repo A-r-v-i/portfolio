@@ -122,10 +122,20 @@ i {
   width: 100%;
   background: linear-gradient(90deg, orange, red, violet);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 4em;
   border-bottom-right-radius: 150px;
+}
+
+.intro-myself {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.intro-myself i{
+  font-size: 16px;
 }
 /* About */
 
@@ -168,6 +178,11 @@ i {
   padding: 10px 5px 10px 5px;
 }
 
+#project i {
+  font-size: 16px;
+}
+
+
 #project:hover {
   box-shadow: 2px 2px 6px 7px grey;
 }
@@ -175,11 +190,14 @@ i {
 #project:nth-child(even) {
   border-radius: 10px;
   text-align: left;
+  padding-left: 15px;
 }
+
 
 #project:nth-child(odd) {
   border-radius: 10px;
   text-align: right;
+  padding-right: 15px;
 }
 
 /* .project-container:nth-child(2) {
@@ -235,6 +253,7 @@ i {
   justify-content: center;
   align-items: center;
   font-weight: bolder;
+  text-align: center;
 }
 footer a {
   display: none;
@@ -266,6 +285,10 @@ footer a {
     display: block;
     color: whitesmoke;
   }
+
+  .footer {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -283,6 +306,10 @@ footer a {
   .navbar.responsive a {
     float: none;
     display: block;
+    background: rgba(0, 0, 0, 0.705);
     text-align: left;
+  }
+  .navbar.responsive a:hover {
+    background: rgba(0, 117, 133, 0.411);
   }
 }
