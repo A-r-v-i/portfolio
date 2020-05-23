@@ -244,9 +244,6 @@ i {
 .contact address a:hover {
   background: transparent;
   border-radius: 20%;
-  /* -moz-box-shadow: 1px 2px 5px 6px grey;
-  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
-  box-shadow: 1px 2px 5px 6px grey; */
   transform: rotateZ(45deg);
 }
 
@@ -311,6 +308,15 @@ footer a {
   .intro h1 {
     font-size: 48px;
   }
+
+  .about section{
+    font-size: 1.2em;
+  }
+
+  #project{
+    font-size: 1.2em;
+  }
+
   .footer {
     font-size: 12px;
     text-align: center;
