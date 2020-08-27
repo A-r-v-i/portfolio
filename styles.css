@@ -106,7 +106,6 @@ i {
   font-size: 28px;
 }
 
-
 /* About */
 
 .title {
@@ -154,6 +153,24 @@ i {
   font-size: 1.5em;
   text-align: justify;
 }
+#resumeContainer {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+#resume {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  filter: drop-shadow(1px 1px 2px);
+}
+
+#resumeContainer p {
+  margin: -15px 0 0 -10px;
+  width: auto;
+  font-size: 14px;
+  color:black;
+}
 
 /* Projects */
 
@@ -182,7 +199,6 @@ i {
   width: 100%;
   padding: 10px 5px 10px 5px;
 }
-
 
 #project i {
   font-size: 24px;
@@ -309,11 +325,11 @@ footer a {
     font-size: 48px;
   }
 
-  .about section{
+  .about section {
     font-size: 1.2em;
   }
 
-  #project{
+  #project {
     font-size: 1.2em;
   }
 
